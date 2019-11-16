@@ -16,3 +16,7 @@ color: dolphin
 - Design team included Rob Pike and Ken Thompson, famous for their work on Unix at Bell Labs.
 - Golang is actively maintained and used at google.
 - It is seeing adoption in broader industry for microservices.
+
+# Paradigm
+
+Golang does not fit neatly into the OO/Functional/Logic paradigm box. There are no classes or inheritance but methods can be added to any type. It has anonymous functions but allows for side effects. 

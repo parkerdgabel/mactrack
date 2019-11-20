@@ -1,11 +1,20 @@
 package main
 
 import (
-	"fmt"
+	"os"
 )
 
+const (
+	defaultDatabasePath = "~/.config/mactrack/mactrack.db"
+)
+
+func getDatabasePath() string {
+	dbpath, ok := os.LookupEnv("MACTRACK_DATABASE")
+	if !ok {
+		dbpath = defaultDatabasePath
+	}
+	return dbpath
+}
+
 func main() {
-	var val string
-	val = "Hola!"
-	fmt.Println(val)
 }

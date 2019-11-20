@@ -6,6 +6,6 @@ import (
 
 func main() {
 	var val string
-	val = "HJello"
+	val = "Hola!"
 	fmt.Println(val)
 }
